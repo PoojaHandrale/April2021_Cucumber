@@ -1,0 +1,158 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 2,
+            "value": "#Given: \"Set SkyBlue Background\" button exists; When: I click on the button; Then: the background color will change to sky blue"
+          },
+          {
+            "line": 3,
+            "value": "#Given: \"Set SkyWhite Background\" button exists; When: I click on the button; Then: the background color will change to white"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 3041582901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.init()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Sky Blue Background",
+        "description": "",
+        "id": "tf-login-functionality-validation;sky-blue-background",
+        "after": [
+          {
+            "result": {
+              "duration": 700909200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 185056700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Set Sky Blue Background button exists",
+            "match": {
+              "location": "StepDefination.Set_Sky_Blue_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86141400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on set Sky Blue Background button",
+            "match": {
+              "location": "StepDefination.I_click_on_set_Sky_Blue_Background_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199899,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "StepDefination.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2136917000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.init()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "White Background Change",
+        "description": "",
+        "id": "tf-login-functionality-validation;white-background-change",
+        "after": [
+          {
+            "result": {
+              "duration": 674288000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Set SkyWhite Background button exists",
+            "match": {
+              "location": "StepDefination.set_SkyWhite_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78182700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on set White Background button",
+            "match": {
+              "location": "StepDefination.I_click_on_set_White_Background_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "StepDefination.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TF login functionality validation",
+    "description": "",
+    "id": "tf-login-functionality-validation",
+    "keyword": "Feature",
+    "uri": "features/test1.feature"
+  }
+]
